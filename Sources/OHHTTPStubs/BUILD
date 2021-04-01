@@ -13,7 +13,7 @@ _PUBLIC_HEADERS = [
 ]
 
 objc_library(
-    name = "objc-lib",
+    name = "lib",
     srcs = glob(
         [
             "**/*.h",

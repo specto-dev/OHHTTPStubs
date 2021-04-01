@@ -27,9 +27,7 @@
  */
 
 import Foundation
-#if SWIFT_PACKAGE
-import OHHTTPStubs
-#endif
+import Sources_OHHTTPStubs_lib
 
 #if !swift(>=3.0)
   extension HTTPStubs {
