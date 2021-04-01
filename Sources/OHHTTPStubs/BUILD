@@ -37,6 +37,6 @@ ios_static_framework(
     minimum_os_version = "12.0",
     umbrella_header = "//Sources/Supporting Files:OHHTTPStubs.h",
     deps = [
-        ":objc-lib",
+        ":lib",
     ],
 )
