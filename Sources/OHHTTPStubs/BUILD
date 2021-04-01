@@ -23,6 +23,7 @@ objc_library(
     ),
     hdrs = _PUBLIC_HEADERS,
     includes = ["include"],
+    visibility = ["//visibility:public"],
 )
 
 ios_static_framework(

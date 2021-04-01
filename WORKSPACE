@@ -29,3 +29,15 @@ load(
 )
 
 apple_support_dependencies()
+
+# added to fix build errors for //Sources/OHHTTPStubsSwift:swift-lib
+
+http_archive(
+    name = "com_google_protobuf",
+    sha256 = "18b0a055105afc73d09948beec67b4b56d17ee55b0669cd105d246954adc59ae",
+    strip_prefix = "protobuf-3.15.2",
+    urls = ["https://github.com/protocolbuffers/protobuf/archive/v3.15.2.zip"],
+)
+
+load("@com_google_protobuf//:protobuf_deps.bzl", "protobuf_deps")
+protobuf_deps()
