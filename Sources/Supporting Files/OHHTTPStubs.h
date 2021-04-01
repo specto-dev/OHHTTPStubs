@@ -22,12 +22,11 @@
  *
  ***********************************************************************************/
 
-#import "Compatibility.h"
-#import "NSURLRequest+HTTPBodyTesting.h"
-#import "HTTPStubs.h"
-#import "HTTPStubsResponse.h"
-#import "HTTPStubsResponse+JSON.h"
-#import "HTTPStubsResponse+HTTPMessage.h"
-#import "HTTPStubs+Mocktail.h"
-#import "HTTPStubsPathHelpers.h"
-
+#import <OHHTTPStubs/Compatibility.h>
+#import <OHHTTPStubs/NSURLRequest+HTTPBodyTesting.h>
+#import <OHHTTPStubs/HTTPStubs.h>
+#import <OHHTTPStubs/HTTPStubsResponse.h>
+#import <OHHTTPStubs/HTTPStubsResponse+JSON.h>
+#import <OHHTTPStubs/HTTPStubsResponse+HTTPMessage.h>
+#import <OHHTTPStubs/HTTPStubs+Mocktail.h>
+#import <OHHTTPStubs/HTTPStubsPathHelpers.h>
