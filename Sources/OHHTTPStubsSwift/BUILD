@@ -12,6 +12,7 @@ swift_library(
     srcs = glob(["**/*.swift"]),
     module_name = "OHHTTPStubs",
     deps = ["//Sources/OHHTTPStubs:lib"],
+    visibility = ["//visibility:public"],
 )
 
 ios_static_framework(
@@ -25,4 +26,5 @@ ios_static_framework(
     deps = [
         ":lib",
     ],
+    visibility = ["//visibility:public"],
 )

@@ -39,4 +39,5 @@ ios_static_framework(
     deps = [
         ":lib",
     ],
+    visibility = ["//visibility:public"],
 )
