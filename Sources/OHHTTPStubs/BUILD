@@ -22,7 +22,9 @@ objc_library(
         exclude = _PUBLIC_HEADERS,
     ),
     hdrs = _PUBLIC_HEADERS,
+    enable_modules = True,
     includes = ["include"],
+    module_name = "OHHTTPStubs",
     visibility = ["//visibility:public"],
 )
 
@@ -36,8 +38,8 @@ ios_static_framework(
     ],
     minimum_os_version = "12.0",
     umbrella_header = "//Sources/Supporting Files:OHHTTPStubs.h",
+    visibility = ["//visibility:public"],
     deps = [
         ":lib",
     ],
-    visibility = ["//visibility:public"],
 )
