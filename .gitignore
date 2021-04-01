@@ -25,3 +25,6 @@ OHHTTPStubs.framework.zip
 
 # SPM
 .swiftpm/
+
+# Bazel
+/bazel-*
